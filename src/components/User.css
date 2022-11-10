@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2? family= Danse+Script & display=swap');
+
+.user {
+    text-align: 50%;
+    font-family: 'roboto';
+    font-size: 20px;
+}
+
+.user_head{
+    margin-left: 60px;
+}
+
+@media screen and (max-width:768px) {
+    .user_head{
+        margin-left: 113px;
+    }
+  
+}
+
+.user_avatar{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user_avatar img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.defcon {
+    position: relative;
+    border-bottom: 2px solid rgba(77, 200, 255, 0.2);
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.user_infos .user_info{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+}
+.user .icon {
+    display: inline-block;
+    width: 40px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.user_infos .user_info span {
+    color: #fff;
+    text-align: justify;
+}
+
+.user_infos .user_info span br {
+    padding: 50px;
+    font-weight: 100;
+}
+
+
+.technical_skills ul{
+    padding-bottom: 20px;
+}
+
+.technical_skills ul li{
+    position: relative;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.personal_skills{
+    padding-top: 20px;
+}
+.personal_skills ul li{
+    position: relative;
+    list-style: none;
+}
+
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #d3d3d3;
+    margin-top: 5px;
+}
+
+.technical_skills{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+}
+
+.personal_skills{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+}
+
+.personal_skills{
+    padding-top: 20px;
+}
+.personal_skills ul li{
+    position: relative;
+    list-style: none;
+    margin: 20px;
+}
+
+.title {
+    font-size: 1.4em;
+    color: #fff;
+}

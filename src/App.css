@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500');
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /* colors */
+  --body-bg-color:#FFFFFF;
+  --sidebar-bg-color:#15719c;
+  --text-color:#FFFFFF;
+  --title-color:#FFFFFF;
+  --date-color:#1f94c2;
+
+  /* dark-body-bg-color */
+
+  --icon-color:var(--text-color);
+  --circle-color:#FFF;
+  --circle-color-plain:#555;
+
+  /* fonts */
+  --body-font: "Poppins", "Sans-serif";
+  --h1-font-size: 1.7rem;
+  --h2-font-size: 1.3rem;
+  --h3-font-size: 1.1rem;
+  --h4-font-size: 1rem;
+
+  /* helpers */
+  --spacing-1: .4rem;
+  --spacing-2: .4rem;
+  --spacing-3: .4rem;
+  --spacing-4: .4rem;
+  --spacing-5: .4rem;
+}
+
+body {
+  font-family: var(--body-font);
+  font-weight: 200;
+  color: var(--text-color);
+  background-color: var(--body-bg-color);
+}
+
+h1, h2, h3 {
+  margin-bottom: var(--spacing-1);
+  font-weight: 400;
+  color: var(--title-color);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  text-transform: uppercase;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-4);
+  font-size: var(--h2-font-size);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*  */
+.mb3 {
+  margin-bottom: var(--spacing-2);
+}
+
+.mb5 {
+  margin-bottom: var(--spacing-5);
+}
+
+/* grids */
+
+@media screen and (min-width:768px) {
+  .grid_container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  
+}
+
+.grid_item,
+.grid_item p {
+    margin-bottom: var(--spacing-1);
+}
+.grid_date {
+    font-weight: 500;
+}
+.grid_title {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.grid_location {
+    font-weight: 300;
+    color: var(--date-color);
+}
+.grid_missions{
+  padding-left: 30px;
+}
+.grid_mission {
+  margin-bottom: var(--spacing-1);
+  color: var(--date-color);
+}
+
+
+
+/* layouts */
+
+.sidebar {
+  padding: 1.5rem;
+  background-color: var(--sidebar-bg-color);
+}
+
+.main {
+  font-family: 'roboto';
+  color: black;
+  position: relative;
+  background: #e0e3e4b3;
+  padding: 20px;
+}
+
+.main h2, h3{
+  font-family: 'roboto';
+  color: black;
+  margin-bottom: var(--spacing-1);
+  font-weight: 500;
+}
+
+.boite{
+  display: block;
+  box-shadow: 2px rgb(68, 63, 63);
+  position: relative;
+  list-style: none;
+  margin-bottom: 30px;
+  padding: 10px;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  background: #fff;
+}
+
+.main .icon {
+  display: inline-block;
+  width: 50px;
+  font-size: 50px;
+  color: #3e4041b3;
+}
+
+.foot span {
+  padding-left: 100px;
+}
+
+.hobbies .icon {
+  display: inline-block;
+  width: 50px;
+  font-size: 80px;
+  color: #1f94c2;
+  margin: 0 40px;
+}
+
+.hobbies .akon {
+  display: inline-block;
+  width: 50px;
+  font-size: 50px;
+  color: #3e4041b3;
+}

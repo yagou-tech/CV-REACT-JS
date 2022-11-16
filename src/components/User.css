@@ -12,7 +12,11 @@
 
 @media screen and (max-width:768px) {
     .user_head{
-        margin-left: 113px;
+        margin-left: 70px;
+    }
+
+    .grid_title{
+        font-size: 16px;
     }
   
 }
@@ -116,7 +120,7 @@
 .personal_skills ul li{
     position: relative;
     list-style: none;
-    margin: 20px;
+    padding-top: 15px;
 }
 
 .title {

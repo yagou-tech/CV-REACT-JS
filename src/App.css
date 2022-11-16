@@ -87,6 +87,35 @@ a {
   
 }
 
+@media screen and (max-width:768px) {
+
+  .profil p {
+    margin-left: 15px;
+  }
+
+  .main .icon {
+    width: 20px;
+    font-size: 20px;
+  }
+
+  .main {
+    font-family: 'roboto';
+    color: black;
+    position: relative;
+    background: #e0e3e4b3;
+    padding: 10px;
+  }
+
+  .grid_item {
+    margin-left: 15px;
+  }
+
+  .main .h2 {
+    margin-left: 10px;
+  }
+
+}
+
 .grid_item,
 .grid_item p {
     margin-bottom: var(--spacing-1);
@@ -163,7 +192,7 @@ a {
   width: 50px;
   font-size: 80px;
   color: #1f94c2;
-  margin: 0 40px;
+  margin: 0 30px;
 }
 
 .hobbies .akon {

@@ -7,7 +7,7 @@ import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
 function hobbies() {
   return (
     <div>
-        <h2>Hobbies</h2>
+        <h2 className="h2">Hobbies</h2>
         <SportsCricketOutlinedIcon className='icon' />
         <SportsSoccerIcon className='icon' />
         <SportsMartialArtsIcon className='icon' />

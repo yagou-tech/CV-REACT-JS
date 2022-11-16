@@ -3,7 +3,7 @@ import React from 'react'
 function Formations({ datas }) {
     return (
         <div className='cursus mb3'>
-            <h2 className='h2'>Formations</h2>
+            <h2 className="h2">Formations</h2>
             {datas.map(item => (
                 <div className='grid_row' key={item.id}>
                     <div className='grid_item'>
